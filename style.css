@@ -1,0 +1,127 @@
+/* Custom fonts & colors */
+
+
+
+body {
+	background-color: rgb(230, 230, 230);
+	color: #5a2e15;
+	font-family: "Montserrat"
+}
+
+h1 {
+	color: rgb(231, 163, 60);
+	font-family: "Indie Flower", serif;
+	font-weight: 800;
+	letter-spacing: 6px;
+	font-size: 32px;
+	text-transform: uppercase;
+
+}
+
+h2 {
+	color: rgb(231, 163, 60);
+	font-family: "Indie Flower", serif;
+	font-size: 24px; 
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	color: white;
+}
+
+
+/* Custom design with class (99% of your design) */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+
+
+
+
+
+
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50px;
+}
+.btn-blue {
+	background-color: rgb(231, 163, 60);
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 45px;
+	color: rgba(90,46,21);
+	filter: opacity(80%);
+}
+.list-inline i:hover {
+	color: black;
+	filter: opacity(80%);
+}
+
+
+/* Design adjustments using id (1% design remaining) */
+#introduction p {
+	margin-bottom: 40px;
+}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
